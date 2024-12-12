@@ -20,7 +20,7 @@ import pydeck as pdk
 
 path = "C:/Users/ericf/OneDrive - Bentley University/pythonProject/pythonProject1/"
 
-df_hqstates = pd.read_csv(path + 'fortune_500_hq.csv')
+df_hqstates = pd.read_csv('fortune_500_hq.csv')
 
 # FUNCTION THAT RETURNS MORE THAN ONE VALUE [PY1]
 def states_with_most_hqs(df, n=10):
